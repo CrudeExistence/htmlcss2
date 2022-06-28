@@ -1,0 +1,100 @@
+body {
+    position: relative;
+    /* overflow-x: visible; */
+}
+
+.all {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+    align-items: center;
+}
+
+header {
+    /* background-color: black; */
+    width: 90vw;
+    height: 200px;
+    margin: 5vh 5vw;
+    /* position: fixed; */
+    border: 4px solid black;
+    display: flex;
+    /* justify-content: space-between; */
+    align-content: flex-start;
+    /* margin-bottom: 500px; */
+}
+
+section {
+    /* position: absolute; */
+    border: 4px dotted black;
+    height: 220px;
+    width: 90vw;
+    margin: 5vh 5vw;
+    top: 0px;
+
+}
+
+footer {
+    border: 1px solid rgb(189, 189, 189);
+    height: 250px;
+    width: 60vw;
+    box-shadow: 5px 5px 3px rgb(168, 168, 168);
+    margin-bottom: 400px;
+    /* align-items: stretch; */
+    align-content: stretch;
+    align-items: center;
+}
+
+footer p {
+    text-align: center;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 10%;
+}
+/* div {
+    display:flex;
+} */
+
+#purple {
+    position: relative;
+    background-color:blueviolet;
+    width: 30px;
+    height: 60%;
+    left: 7px;
+    top: 70px;
+    margin-right: 50px;
+}
+
+#green {
+    position: relative;
+    background-color:green;
+    height: 90%;
+    width: 40%;
+    top: 5%;
+    margin-right: 50px;
+}
+
+#blue {
+    position: relative;
+    background-color: lightblue;
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    top: 2vh;
+}
+
+#floater {
+    background-color: bisque;
+    width: 90%;
+    height: 75%;
+    margin: 3% 5%;
+    box-shadow: 10px 10px 5px black;
+}
+
